@@ -87,7 +87,7 @@ a { color: inherit; }
 .cta-note { font-size: 13px; color: var(--muted); margin-top: 12px; }
 
 /* ficha do servidor */
-.ficha { border: 2px solid var(--fg); background: var(--surface); position: relative; }
+.ficha { border: 2px solid var(--fg); background: var(--surface); position: relative; align-self: center; justify-self: end; width: 100%; max-width: 440px; }
 .ficha-h {
   display: flex; justify-content: space-between; align-items: center; gap: 12px;
   background: var(--fg); color: var(--bg); padding: 8px 14px;
@@ -106,7 +106,7 @@ a { color: inherit; }
 }
 .copy:hover { background: var(--bg); }
 .stamp {
-  position: absolute; right: -10px; top: -18px; transform: rotate(6deg);
+  position: absolute; right: -12px; top: -30px; transform: rotate(6deg);
   font-family: var(--font-display); font-weight: 700; font-size: 15px; letter-spacing: .12em; text-transform: uppercase;
   color: var(--blood); border: 2px solid var(--blood); padding: 2px 10px; background: var(--bg);
 }
@@ -261,25 +261,33 @@ footer { border-top: 2px solid var(--fg); padding-block: 28px 40px; }
       </figure>
       <div class="mapa-texto">
         <span class="tag">Fora da safezone, nada é seguro</span>
-        <p>A safezone é o ponto de encontro dos sobreviventes. Daqui para fora tem cidades com prédios para vasculhar, bairros inteiros, um castelo cercado por água e florestas cortadas por rios.</p>
+        <p>A safezone é o ponto de encontro dos sobreviventes. Daqui para fora tem cidades com prédios para vasculhar, bases militares, bunkers secretos e muito mais.</p>
         <p>Quanto melhor o loot, mais gente vai estar de olho nele.</p>
       </div>
       <div class="mapa-grade">
         <figure class="foto">
+          <img src="base-hazmat.jpg" width="1280" height="661" loading="lazy" alt="Instalação militar com helicóptero, prédios de concreto e zumbis com roupas hazmat laranja andando pela pista">
+          <figcaption><span>Registro 02 · Base militar</span><span>Zumbis com hazmat</span></figcaption>
+        </figure>
+        <figure class="foto">
+          <img src="ruinas-militares.jpg" width="1280" height="661" loading="lazy" alt="Vista do alto de uma fortificação militar em ruínas, com jipes, caixas de suprimentos e um helicóptero caído">
+          <figcaption><span>Registro 03 · Posto destruído</span><span>Veículos e suprimentos</span></figcaption>
+        </figure>
+        <figure class="foto">
           <img src="cidade.jpg" width="854" height="480" loading="lazy" alt="Centro de uma cidade com prédios altos, ruas asfaltadas e árvores">
-          <figcaption><span>Registro 02 · Centro</span><span>Prédios e ruas</span></figcaption>
+          <figcaption><span>Registro 04 · Centro</span><span>Prédios e ruas</span></figcaption>
         </figure>
         <figure class="foto">
           <img src="bairros.jpg" width="854" height="480" loading="lazy" alt="Bairro com dezenas de casas, um viaduto e um arranha-céu ao fundo">
-          <figcaption><span>Registro 03 · Bairros</span><span>Casas e viadutos</span></figcaption>
+          <figcaption><span>Registro 05 · Bairros</span><span>Casas e viadutos</span></figcaption>
         </figure>
         <figure class="foto">
           <img src="castelo.jpg" width="854" height="480" loading="lazy" alt="Castelo de pedra numa ilha cercada por um rio, no meio de uma floresta de pinheiros">
-          <figcaption><span>Registro 04 · Castelo</span><span>Cercado por água</span></figcaption>
+          <figcaption><span>Registro 06 · Castelo</span><span>Cercado por água</span></figcaption>
         </figure>
         <figure class="foto">
           <img src="floresta.jpg" width="854" height="480" loading="lazy" alt="Rio correndo num cânion de pedra no meio de uma floresta de pinheiros">
-          <figcaption><span>Registro 05 · Floresta</span><span>Rios e cânions</span></figcaption>
+          <figcaption><span>Registro 07 · Floresta</span><span>Rios e cânions</span></figcaption>
         </figure>
       </div>
     </div>
